@@ -1,6 +1,21 @@
 #include <iostream>
 
-int main() {
-  std::cout << "hello" <<std::endl;
-  return 0;
+namespace hr {
+  struct Employee {
+    char firstInitial;
+    char lastInitial;
+    int employeeNumber;
+    int salary;
+  };
 }
+
+int main() {
+  hr::Employee e1 {
+    .firstInitial { 'J' },
+    .lastInitial { 'D' },
+    .employeeNumber { 42 },
+    .salary { 80000 }
+  };
+
+  return 0;
+} 
