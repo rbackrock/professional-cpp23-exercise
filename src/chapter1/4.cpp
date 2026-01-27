@@ -30,7 +30,6 @@ namespace hr {
       return "暂无";
     }
     void showMe() const {
-      // std::cout << "我的名字是" << this->firstInitial << "-" << this->lastInitial << ","
       std::cout << std::format("我的名字是{},员工编号为{},薪水为{},头衔为{}", this->firstInitial + this->lastInitial, this->employeeNumber, this->salary, this->showTitle()) << std::endl;
     }
   };

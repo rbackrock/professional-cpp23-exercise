@@ -26,14 +26,14 @@ public:
   int getNumberOfMiles() const {
     return this->m_numberOfMiles;
   }
-  void setNumberOfMiles(const int &miles) {
+  void setNumberOfMiles(int miles) {
     this->m_numberOfMiles = miles;
   }
 
   bool hasEliteSuperRewardsStatus() const {
     return this->m_hasEliteSuperRewardsStatus;
   }
-  void setHasEliteSuperRewardsStatus(const bool &status) {
+  void setHasEliteSuperRewardsStatus(bool status) {
     this->m_hasEliteSuperRewardsStatus = status;
   }
 };
