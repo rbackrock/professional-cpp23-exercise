@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 4.00)
 
 # 设置项目名称和版本
 project(ProfessionalCpp23Exercise VERSION 1.0)
